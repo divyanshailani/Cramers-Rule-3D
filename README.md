@@ -101,7 +101,7 @@ project_4_Cramers_Rule/
 
 ### Phase 1 — Python Logic
 ```bash
-pip3 install numpy
+pip3 install -r requirements.txt
 cd Phase_1_Logic
 python3 -c "import systems, cramers_rule; s = systems.get_system('clean'); r = cramers_rule.cramers_solve(s['A'], s['b']); cramers_rule.print_report(s['A'], s['b'], r)"
 ```
@@ -121,6 +121,17 @@ clean     → Integer solution [1, 2, 3] — hand-verifiable
 skewed    → Non-orthogonal columns — irrational solution
 physical  → Kirchhoff's circuit — real-world engineering
 ```
+
+---
+
+## ✅ Verification
+
+For the `clean` system, a successful Phase 1 run should:
+- print a non-zero `det(A)`
+- print the solution vector `[1.000000, 2.000000, 3.000000]`
+- end with `VERIFICATION: Ax = b  ✅ PERFECT MATCH`
+
+For the `singular` system, the solver should refuse to solve because `det(A) ≈ 0`.
 
 ---
 
