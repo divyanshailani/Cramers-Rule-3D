@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Blender
+*.blend1
+
+# Videos (too large for GitHub — renders stored locally)
+*.mp4
