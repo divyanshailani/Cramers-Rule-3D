@@ -143,7 +143,7 @@ For the `singular` system, the solver should refuse to solve because `det(A) ≈
 | 02 | 3D Linear Transform Animator | ✅ Complete |
 | 03 | Basis Translator 3D | ✅ Complete |
 | **04** | **Cramer's Rule 3D** ← *here* | ✅ Complete |
-| 05 | Eigenvector Explorer | ⏳ |
+| 05 | Eigenvector Explorer | ✅ Complete |
 | 06A | Solar System Simulator | ⏳ |
 | **06B** | **PROJECT VOID** | ⏳ |
 | 07 | Neural Network Visual Simulator | ⏳ |
